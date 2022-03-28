@@ -1,6 +1,7 @@
 import { Item } from 'modules/item/types'
 
 export type Props = {
+  className?: string
   collectionId: string
   items: Item[]
   isLoading: boolean
