@@ -29,7 +29,11 @@ export const locations = {
   collections: () => '/collections',
   itemDetail: (itemId = ':itemId') => `/items/${itemId}`,
   collectionDetail: (collectionId = ':collectionId', type: CollectionType = CollectionType.DECENTRALAND) =>
-    type === CollectionType.DECENTRALAND ? `/collections/${collectionId}` : `/thirdPartyCollections/${collectionId}`,
+    type === CollectionType.DECENTRALAND
+      ? `/collections/${collectionId}`
+      : type === CollectionType.THIRD_PARTY
+      ? locations.thirdPartyCollectionDetail(collectionId)
+      : '',
   thirdPartyCollectionDetail: (collectionId = ':collectionId') => `/thirdPartyCollections/${collectionId}`,
   itemEditor: (options?: ItemEditorParams) =>
     injectParams(`/item-editor`, { itemId: 'item', collectionId: 'collection', isReviewing: 'reviewing' }, options),
