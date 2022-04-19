@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const prettier = require('prettier')
 
-const editorPath = path.resolve(__dirname, process.argv[2] || require.resolve('decentraland-ecs/artifacts/editor'))
+const editorPath = path.resolve(__dirname, process.argv[2] || require.resolve('decentraland-ecs/artifacts/editor.js'))
 const targetEditorPath = path.resolve(__dirname, '../public/editor.js')
 
 const ecsPath = path.resolve(__dirname, process.argv[3] || require.resolve('decentraland-ecs/dist/src/index.js'))
