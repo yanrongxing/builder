@@ -30,6 +30,8 @@
     ],
     "baseUrl": "src"
   },
-  "include": ["src", "src/typings.d.ts", "react-app=env.d.ts", "./node_modules/decentraland-builder-scripts/types.d.ts"],
+  "include": ["src","src/**/*.ts", "src/typings.d.ts", "react-app=env.d.ts", "./node_modules/decentraland-builder-scripts/types.d.ts"],
+  
+  // "include": ["src/**/*.ts"]
   "exclude": ["src/modules/editor/ecs.js"]
 }
