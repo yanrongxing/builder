@@ -3,7 +3,7 @@ import { engine, GLTFShape, Transform, Entity, Component, NFTShape, IEntity, Vec
 import * as ECS from 'decentraland-ecs'
 import { createChannel } from 'decentraland-builder-scripts/channel'
 import { createInventory } from 'decentraland-builder-scripts/inventory'
-import { DecentralandInterface } from 'decentraland-ecs/dist/decentraland/Types'
+import { DecentralandInterface } from './dcl'
 import { EntityDefinition, AnyComponent, ComponentData, ComponentType, Scene } from 'modules/scene/types'
 import { toLegacyURN } from 'lib/urnLegacy'
 import { AssetParameterValues } from 'modules/asset/types'
@@ -282,8 +282,8 @@ function updateComponent(component: AnyComponent) {
     transform.position.copyFrom(transformData.position)
     transform.rotation.set(transformData.rotation.x, transformData.rotation.y, transformData.rotation.z, transformData.rotation.w)
     transform.scale.copyFrom(transformData.scale)
-    transform.data['nonce'] = Math.random()
-    transform.dirty = true
+    // transform.data['nonce'] = Math.random()
+    // transform.dirty = true
   } else if (type === ComponentType.Script) {
     const script = editorComponents[id] as Script
     const scriptData = data as ComponentData[ComponentType.Script]
