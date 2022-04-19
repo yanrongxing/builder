@@ -9,7 +9,7 @@ import { getSkinHiddenCategories } from 'modules/item/utils'
 import { TRANSPARENT_PIXEL } from 'lib/getModelData'
 import { toLegacyURN } from 'lib/urnLegacy'
 import { Scene, EntityDefinition, ComponentDefinition, ComponentType } from 'modules/scene/types'
-import { getMetrics } from 'components/AssetImporter/utils'
+import { getMetrics } from '../../components/AssetImporter/utils'
 import { Item, WearableBodyShape, WearableCategory } from 'modules/item/types'
 import { base64ArrayBuffer } from './base64'
 

@@ -16,9 +16,9 @@ import {
 } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import Footer from 'components/Footer'
-import Navbar from 'components/Navbar'
-import Back from 'components/Back'
+import Footer from '../Footer'
+import Navbar from '../Navbar'
+import Back from '../Back'
 import { PoolsRequestFilters, SortBy } from 'modules/pool/types'
 
 import { Props, State, filterAttributes } from './SceneListPage.types'

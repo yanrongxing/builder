@@ -1,8 +1,8 @@
 import React from 'react'
 import { Grid } from 'decentraland-ui'
 
-import Drawer from 'components/Drawer'
-import AssetCard from 'components/AssetCard'
+import Drawer from '../../Drawer'
+import AssetCard from '../../AssetCard'
 import { Asset, GROUND_CATEGORY } from 'modules/asset/types'
 
 import { Props, DefaultProps } from './AssetList.types'

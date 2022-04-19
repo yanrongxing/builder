@@ -3,7 +3,7 @@ import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
 import { MAX_AREA } from 'modules/template/utils'
 import { ProjectLayout } from 'modules/project/types'
-import LayoutPicker from 'components/LayoutPicker'
+import LayoutPicker from '../LayoutPicker'
 import { Props, State } from './ProjectLayoutPicker.types'
 
 export default class ProjectLayoutPicker extends React.PureComponent<Props, State> {

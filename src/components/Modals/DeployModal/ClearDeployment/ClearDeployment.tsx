@@ -3,7 +3,7 @@ import { Button, Loader, Header } from 'decentraland-ui'
 import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
-import Icon from 'components/Icon'
+import Icon from '../../../Icon'
 import { Props, State } from './ClearDeployment.types'
 import './ClearDeployment.css'
 

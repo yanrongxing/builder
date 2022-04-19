@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import LandAction from 'components/LandAction'
-import LandProviderPage from 'components/LandProviderPage'
+import LandAction from '../LandAction'
+import LandProviderPage from '../LandProviderPage'
 import LandOperatorForm from './LandOperatorForm/LandOperatorForm'
 import { Props } from './LandOperatorPage.types'
 

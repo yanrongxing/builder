@@ -13,12 +13,12 @@ import {
   isLocked as isCollectionLocked,
   isOwner
 } from 'modules/collection/utils'
-import LoggedInDetailPage from 'components/LoggedInDetailPage'
-import Notice from 'components/Notice'
-import NotFound from 'components/NotFound'
-import BuilderIcon from 'components/Icon'
-import Back from 'components/Back'
-import CollectionStatus from 'components/CollectionStatus'
+import LoggedInDetailPage from '../LoggedInDetailPage'
+import Notice from '../Notice'
+import NotFound from '../NotFound'
+import BuilderIcon from '../Icon'
+import Back from '../Back'
+import CollectionStatus from '../CollectionStatus'
 import CollectionPublishButton from './CollectionPublishButton'
 import CollectionContextMenu from './CollectionContextMenu'
 import CollectionItem from './CollectionItem'

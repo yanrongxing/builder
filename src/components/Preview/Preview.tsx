@@ -5,7 +5,7 @@ import { env } from 'decentraland-commons'
 
 import { PreviewType } from 'modules/editor/types'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { ASSET_TYPE } from 'components/AssetCard/AssetCard.dnd'
+import { ASSET_TYPE } from '../AssetCard/AssetCard.dnd'
 import { convertToUnityKeyboardEvent } from 'modules/editor/utils'
 import { previewTarget, collect, CollectedProps } from './Preview.dnd'
 import { EditorWindow, Props, State } from './Preview.types'

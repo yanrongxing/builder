@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { IntercomWidget } from 'decentraland-dapps/dist/components/Intercom/IntercomWidget'
 
-import Icon from 'components/Icon'
-import Preview from 'components/Preview'
+import Icon from '../Icon'
+import Preview from '../Preview'
 import './ViewPort.css'
 import { Props } from './ViewPort.types'
 import { PreviewType } from 'modules/editor/types'

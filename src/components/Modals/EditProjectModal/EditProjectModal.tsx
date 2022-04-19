@@ -5,8 +5,8 @@ import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
 import { ProjectLayout, Project } from 'modules/project/types'
 import { DeploymentStatus } from 'modules/deployment/types'
-import ProjectFields from 'components/ProjectFields'
-import ProjectLayoutPicker from 'components/ProjectLayoutPicker'
+import ProjectFields from '../../ProjectFields'
+import ProjectLayoutPicker from '../../ProjectLayoutPicker'
 
 import { Props, State } from './EditProjectModal.types'
 import './EditProjectModal.css'

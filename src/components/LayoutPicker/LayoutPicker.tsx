@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Icon } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import SquaresGrid from 'components/SquaresGrid'
+import SquaresGrid from '../SquaresGrid'
 import { preventDefault } from 'lib/preventDefault'
 import { Props } from './LayoutPicker.types'
 

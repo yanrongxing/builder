@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Dropdown, Button, Icon } from 'decentraland-ui'
 import { locations } from 'routing/locations'
-import SceneStats from 'components/SceneStats'
-import { DeployModalView, DeployModalMetadata } from 'components/Modals/DeployModal/DeployModal.types'
+import SceneStats from '../../SceneStats'
+import { DeployModalView, DeployModalMetadata } from '../../Modals/DeployModal/DeployModal.types'
 import { Props } from './Scene.types'
 import './Scene.css'
 

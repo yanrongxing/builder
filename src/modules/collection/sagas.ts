@@ -121,7 +121,7 @@ import {
   DEPLOY_ENTITIES_FAILURE,
   DEPLOY_ENTITIES_SUCCESS
 } from 'modules/entity/actions'
-import { ApprovalFlowModalMetadata, ApprovalFlowModalView } from 'components/Modals/ApprovalFlowModal/ApprovalFlowModal.types'
+import { ApprovalFlowModalMetadata, ApprovalFlowModalView } from '../../components/Modals/ApprovalFlowModal/ApprovalFlowModal.types'
 import { getCollection, getWalletCollections } from './selectors'
 import { Collection, CollectionType } from './types'
 import {

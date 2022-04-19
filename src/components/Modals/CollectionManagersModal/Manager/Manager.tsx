@@ -2,7 +2,7 @@ import * as React from 'react'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
 import { shorten } from 'lib/address'
-import Profile from 'components/Profile'
+import Profile from '../../../Profile'
 import { Props } from './Manager.types'
 import './Manager.css'
 

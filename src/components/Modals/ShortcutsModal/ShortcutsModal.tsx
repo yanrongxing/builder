@@ -3,7 +3,7 @@ import { Close } from 'decentraland-ui'
 import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import Chip from 'components/Chip'
+import Chip from '../../Chip'
 import { Shortcut, ShortcutDefinition, SimpleShortcut } from 'modules/keyboard/types'
 import { mapLabel, ShortcutRenderer } from 'modules/keyboard/utils'
 import { Props } from './ShortcutModal.types'

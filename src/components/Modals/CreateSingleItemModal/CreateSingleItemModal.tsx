@@ -36,8 +36,8 @@ import {
 } from 'modules/item/types'
 import { EngineType, getModelData } from 'lib/getModelData'
 import { computeHashes } from 'modules/deployment/contentUtils'
-import ItemDropdown from 'components/ItemDropdown'
-import Icon from 'components/Icon'
+import ItemDropdown from '../../ItemDropdown'
+import Icon from '../../Icon'
 import { getExtension } from 'lib/file'
 import { buildThirdPartyURN, DecodedURN, decodeURN, isThirdParty, URNType } from 'lib/urn'
 import { ModelMetrics } from 'modules/models/types'
@@ -55,8 +55,8 @@ import {
   getMaxSupplyForRarity,
   getEmoteCategories
 } from 'modules/item/utils'
-import ItemImport from 'components/ItemImport'
-import { ASSET_MANIFEST } from 'components/AssetImporter/utils'
+import ItemImport from '../../ItemImport'
+import { ASSET_MANIFEST } from '../../AssetImporter/utils'
 import { FileTooBigError, WrongExtensionError, InvalidFilesError, MissingModelFileError } from 'modules/item/errors'
 import { getThumbnailType, validateEnum, validatePath } from './utils'
 import {

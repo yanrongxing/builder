@@ -4,7 +4,7 @@ import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
 
 import { NEW_ASSET_PACKS, isSameAssetPack } from 'modules/ui/sidebar/utils'
-import Icon from 'components/Icon'
+import Icon from '../../Icon'
 import SidebarCard from '../SidebarCard'
 import { Props } from './AssetPackList.types'
 import './AssetPackList.css'

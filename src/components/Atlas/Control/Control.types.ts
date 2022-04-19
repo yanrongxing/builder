@@ -1,4 +1,4 @@
-import { IconName } from 'components/Icon/Icon.types'
+import { IconName } from '../../Icon/Icon.types'
 
 export type Props = {
   content: string

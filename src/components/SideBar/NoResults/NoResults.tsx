@@ -1,6 +1,6 @@
 import React from 'react'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Watermelon from 'components/Watermelon'
+import Watermelon from '../../Watermelon'
 
 import './NoResults.css'
 

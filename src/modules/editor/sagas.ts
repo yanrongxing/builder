@@ -93,7 +93,7 @@ import { AvatarAnimation, CatalystWearable, EditorScene, Gizmo, PreviewType } fr
 import { getLoading } from 'modules/assetPack/selectors'
 import { GROUND_CATEGORY } from 'modules/asset/types'
 import { RootState } from 'modules/common/types'
-import { EditorWindow } from 'components/Preview/Preview.types'
+import { EditorWindow } from '../../components/Preview/Preview.types'
 import { store } from 'modules/common/store'
 import { PARCEL_SIZE } from 'modules/project/constants'
 import { snapToBounds, getSceneByProjectId } from 'modules/scene/utils'

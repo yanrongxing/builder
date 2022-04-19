@@ -39,7 +39,7 @@ import { getSelectedEntityIds, isReady } from 'modules/editor/selectors'
 import { setSelectedEntities, SET_EDITOR_READY } from 'modules/editor/actions'
 import { getCurrentBounds, getData as getProjects } from 'modules/project/selectors'
 import { PARCEL_SIZE } from 'modules/project/constants'
-import { EditorWindow } from 'components/Preview/Preview.types'
+import { EditorWindow } from '../../components/Preview/Preview.types'
 import { COLLECTIBLE_ASSET_PACK_ID } from 'modules/ui/sidebar/utils'
 import {
   snapToGrid,
@@ -55,7 +55,7 @@ import { getData as getAssets, getGroundAssets, getAssetsByEntityName } from 'mo
 import { Asset } from 'modules/asset/types'
 import { loadAssets } from 'modules/asset/actions'
 import { getData as getAssetPacks } from 'modules/assetPack/selectors'
-import { getMetrics } from 'components/AssetImporter/utils'
+import { getMetrics } from '../../components/AssetImporter/utils'
 import { DataByKey } from 'decentraland-dapps/dist/lib/types'
 
 const editorWindow = window as EditorWindow

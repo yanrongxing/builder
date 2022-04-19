@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Header } from 'decentraland-ui'
 import { debounce } from 'lib/debounce'
-import Icon from 'components/Icon'
+import Icon from '../../Icon'
 import { AssetParameterValues } from 'modules/asset/types'
 import EntityParameters from './EntityParameters'
 import { Props } from './EntityEditor.types'

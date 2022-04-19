@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from 'components/Navbar'
+import Navbar from '../Navbar'
 import { Page } from 'decentraland-ui'
 import { ProviderType } from '@dcl/schemas'
-import Footer from 'components/Footer'
+import Footer from '../Footer'
 import { default as SignIn } from 'decentraland-dapps/dist/containers/SignInPage'
 import { Props } from './SignInPage.types'
 

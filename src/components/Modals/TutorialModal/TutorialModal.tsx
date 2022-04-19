@@ -6,7 +6,7 @@ import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { getLocalStorage } from 'decentraland-dapps/dist/lib/localStorage'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import { LOCALSTORAGE_TUTORIAL_KEY } from 'components/EditorPage/EditorPage'
+import { LOCALSTORAGE_TUTORIAL_KEY } from '../../EditorPage/EditorPage'
 import { preventDefault } from 'lib/preventDefault'
 import { getSlides } from './slides'
 import { Props, State } from './TutorialModal.types'

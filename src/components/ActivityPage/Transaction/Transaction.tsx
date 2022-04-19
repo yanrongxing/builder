@@ -33,7 +33,7 @@ import { getSaleAddress, getTotalAmountOfMintedItems } from 'modules/collection/
 import { isEnoughClaimMana } from 'modules/ens/utils'
 import { includes } from 'lib/address'
 import { difference } from 'lib/array'
-import Profile from 'components/Profile'
+import Profile from '../../Profile'
 import TransactionDetail from './TransactionDetail'
 import { Props } from './Transaction.types'
 

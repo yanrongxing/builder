@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { Page, Loader } from 'decentraland-ui'
 
-import Navigation from 'components/Navigation'
-import Navbar from 'components/Navbar'
-import Footer from 'components/Footer'
+import Navigation from '../Navigation'
+import Navbar from '../Navbar'
+import Footer from '../Footer'
 import { Props } from './LoggedInDetailPage.types'
 import SignInRequired from '../SignInRequired'
 import './LoggedInDetailPage.css'

@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Table, Column, Row } from 'decentraland-ui'
 
-import { Atlas } from 'components/Atlas'
-import Profile from 'components/Profile'
+import { Atlas } from '../../Atlas'
+import Profile from '../../Profile'
 import InlineList from '../InlineList'
 import { coordsToId, getCoords, LAND_POOL_ADDRESS } from 'modules/land/utils'
 import { isEqual } from 'lib/address'

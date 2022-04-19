@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import { Loader } from 'decentraland-ui'
 import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { locations } from 'routing/locations'
-import LandProviderPage from 'components/LandProviderPage'
+import LandProviderPage from '../LandProviderPage'
 import LandAssignENSForm from './LandAssignENSForm/LandAssignENSForm'
-import LandAction from 'components/LandAction'
+import LandAction from '../LandAction'
 import { Props } from './LandAssignENSPage.types'
 
 export default class LandAssignENSPage extends React.PureComponent<Props> {

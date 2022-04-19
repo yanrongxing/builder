@@ -3,11 +3,11 @@ import { Row, Column, Field, Section, InputOnChangeData } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
 import { isValid } from 'lib/address'
-import ItemImage from 'components/ItemImage'
-import Icon from 'components/Icon'
+import ItemImage from '../../../ItemImage'
+import Icon from '../../../Icon'
 import { getMaxSupply } from 'modules/item/utils'
 import { Props } from './MintableItem.types'
-import ItemStatus from 'components/ItemStatus'
+import ItemStatus from '../../../ItemStatus'
 
 import './MintableItem.css'
 

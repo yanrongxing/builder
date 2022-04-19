@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Loader } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { Item } from 'modules/item/types'
-import ItemImage from 'components/ItemImage'
+import ItemImage from '../ItemImage'
 import { Props } from './CollectionImage.types'
 import './CollectionImage.css'
 

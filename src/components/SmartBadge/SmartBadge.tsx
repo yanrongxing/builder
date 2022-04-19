@@ -1,6 +1,6 @@
 import React from 'react'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { SmartIcon } from 'components/SmartIcon'
+import { SmartIcon } from '../SmartIcon'
 import './SmartBadge.css'
 
 export type SmartBadgeProps = {

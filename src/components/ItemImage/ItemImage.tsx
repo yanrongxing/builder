@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 import { getBackgroundStyle, getThumbnailURL } from 'modules/item/utils'
-import ItemBadge from 'components/ItemBadge'
-import { SmartBadge } from 'components/SmartBadge'
+import ItemBadge from '../ItemBadge'
+import { SmartBadge } from '../SmartBadge'
 import { ItemMetadataType } from 'modules/item/types'
 import { getItemMetadataType } from 'modules/item/utils'
 import { Props } from './ItemImage.types'

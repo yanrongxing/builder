@@ -1,7 +1,7 @@
 import { DragLayerCollector, XYCoord } from 'react-dnd'
 
 import { Asset } from 'modules/asset/types'
-import { AssetCardDragObject } from 'components/AssetCard/AssetCard.dnd'
+import { AssetCardDragObject } from '../../AssetCard/AssetCard.dnd'
 
 export type CollectedProps = {
   currentOffset: XYCoord | null

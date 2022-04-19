@@ -7,7 +7,7 @@ import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { canMintItem, MAX_NFTS_PER_MINT } from 'modules/item/utils'
 import { Item } from 'modules/item/types'
 import { Mint } from 'modules/collection/types'
-import ItemDropdown from 'components/ItemDropdown'
+import ItemDropdown from '../../ItemDropdown'
 import { Props, State, ItemMints } from './MintItemsModal.types'
 import MintableItem from './MintableItem'
 

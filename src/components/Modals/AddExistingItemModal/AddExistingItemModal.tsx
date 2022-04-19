@@ -3,7 +3,7 @@ import { ModalNavigation, ModalContent, ModalActions, Button } from 'decentralan
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { Item } from 'modules/item/types'
-import ItemDropdown from 'components/ItemDropdown'
+import ItemDropdown from '../../ItemDropdown'
 import { Props, State, AddExistingItemModalMetadata } from './AddExistingItemModal.types'
 
 export default class AddExistingItemModal extends React.PureComponent<Props, State> {

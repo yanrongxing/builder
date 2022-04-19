@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
 import { locations } from 'routing/locations'
-import DeploymentStatus from 'components/DeploymentStatus'
-import Icon from 'components/Icon'
-import { DeployModalView, DeployModalMetadata } from 'components/Modals/DeployModal/DeployModal.types'
+import DeploymentStatus from '../../DeploymentStatus'
+import Icon from '../../Icon'
+import { DeployModalView, DeployModalMetadata } from '../../Modals/DeployModal/DeployModal.types'
 import { Props, DefaultProps, State } from './PoolCard.types'
 import './PoolCard.css'
 

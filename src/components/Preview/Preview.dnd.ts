@@ -1,6 +1,6 @@
 import { DropTargetSpec, DropTargetCollector, ConnectDropTarget } from 'react-dnd'
 
-import { AssetCardDragObject } from 'components/AssetCard/AssetCard.dnd'
+import { AssetCardDragObject } from '../AssetCard/AssetCard.dnd'
 import { Props } from './Preview.types'
 
 export const PREVIEW_OFFSET = {

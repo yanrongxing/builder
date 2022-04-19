@@ -3,8 +3,8 @@ import { ModalNavigation, Button } from 'decentraland-ui'
 import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { getItemsToPublish, getItemsWithChanges } from 'modules/item/utils'
-import { PublishButtonAction } from 'components/ThirdPartyCollectionDetailPage/CollectionPublishButton/CollectionPublishButton.types'
-import { getTPButtonActionLabel } from 'components/ThirdPartyCollectionDetailPage/CollectionPublishButton/CollectionPublishButton'
+import { PublishButtonAction } from '../../ThirdPartyCollectionDetailPage/CollectionPublishButton/CollectionPublishButton.types'
+import { getTPButtonActionLabel } from '../../ThirdPartyCollectionDetailPage/CollectionPublishButton/CollectionPublishButton'
 import { Props } from './PublishThirdPartyCollectionModal.types'
 
 export default class PublishThirdPartyCollectionModal extends React.PureComponent<Props> {

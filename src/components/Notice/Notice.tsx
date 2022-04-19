@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import { Props } from './Notice.types'
-import Icon from 'components/Icon'
+import Icon from '../Icon'
 import './Notice.css'
 
 export default class Notice extends React.PureComponent<Props> {

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import SquaresGrid from 'components/SquaresGrid'
+import SquaresGrid from '../SquaresGrid'
 import { Props, DefaultProps } from './TemplateCard.types'
 import './TemplateCard.css'
 

@@ -4,7 +4,7 @@ import { Collection } from 'modules/collection/types'
 import { ThirdParty } from 'modules/thirdParty/types'
 import { Item, SyncStatus } from 'modules/item/types'
 import { ItemCuration } from 'modules/curations/itemCuration/types'
-import { PublishButtonAction } from 'components/ThirdPartyCollectionDetailPage/CollectionPublishButton/CollectionPublishButton.types'
+import { PublishButtonAction } from '../../ThirdPartyCollectionDetailPage/CollectionPublishButton/CollectionPublishButton.types'
 import {
   publishAndPushChangesThirdPartyItemsRequest,
   PublishAndPushChangesThirdPartyItemsRequestAction,

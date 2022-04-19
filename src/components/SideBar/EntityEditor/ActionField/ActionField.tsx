@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Dropdown } from 'decentraland-ui'
 import { AssetParameterValues, AssetActionValue, AssetAction, AssetParameterType } from 'modules/asset/types'
-import Icon from 'components/Icon'
+import Icon from '../../../Icon'
 import EntityParameters from '../EntityParameters'
 import OptionsField from '../OptionsField'
 import EntityField from '../EntityField'

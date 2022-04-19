@@ -6,10 +6,10 @@ import { Network } from '@dcl/schemas'
 import { NetworkButton } from 'decentraland-dapps/dist/containers'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { isThirdParty } from 'lib/urn'
-import ItemImage from 'components/ItemImage'
-import ItemProvider from 'components/ItemProvider'
-import ConfirmDelete from 'components/ConfirmDelete'
-import Icon from 'components/Icon'
+import ItemImage from '../../ItemImage'
+import ItemProvider from '../../ItemProvider'
+import ConfirmDelete from '../../ConfirmDelete'
+import Icon from '../../Icon'
 import {
   getMissingBodyShapeType,
   getRarities,

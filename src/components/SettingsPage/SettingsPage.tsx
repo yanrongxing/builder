@@ -4,9 +4,9 @@ import { Grid, Blockie, Loader, Row, Field, InputOnChangeData, Dropdown, Button,
 import { isMobile } from 'decentraland-dapps/dist/lib/utils'
 import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import Profile from 'components/Profile'
-import LoggedInDetailPage from 'components/LoggedInDetailPage'
-import SignInRequired from 'components/SignInRequired'
+import Profile from '../Profile'
+import LoggedInDetailPage from '../LoggedInDetailPage'
+import SignInRequired from '../SignInRequired'
 import { shorten, isValid } from 'lib/address'
 import { LandType } from 'modules/land/types'
 import { Props, State } from './SettingsPage.types'

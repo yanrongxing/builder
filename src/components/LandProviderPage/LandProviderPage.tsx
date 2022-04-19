@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { Page, Loader, Center } from 'decentraland-ui'
-import Navbar from 'components/Navbar'
-import Footer from 'components/Footer'
-import NotFound from 'components/NotFound'
-import LandProvider from 'components/LandProvider'
+import Navbar from '../Navbar'
+import Footer from '../Footer'
+import NotFound from '../NotFound'
+import LandProvider from '../LandProvider'
 import { Props } from './LandProviderPage.types'
 import './LandProviderPage.css'
 

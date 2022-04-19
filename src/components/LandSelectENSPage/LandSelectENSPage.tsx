@@ -1,10 +1,10 @@
 import * as React from 'react'
-import LandAction from 'components/LandAction'
+import LandAction from '../LandAction'
 import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { Link } from 'react-router-dom'
 import { locations } from 'routing/locations'
 import { Land } from 'modules/land/types'
-import LandProviderPage from 'components/LandProviderPage'
+import LandProviderPage from '../LandProviderPage'
 import LandSelectENSForm from './LandSelectENSForm/LandSelectENSForm'
 import { Props } from './LandSelectENSPage.types'
 

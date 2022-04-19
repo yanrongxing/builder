@@ -2,7 +2,7 @@ import React from 'react'
 import { Header, Icon, Button, Popup } from 'decentraland-ui'
 import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import OwnIcon from 'components/Icon'
+import OwnIcon from '../../Icon'
 import { Props } from './SidebarHeader.types'
 import './SidebarHeader.css'
 

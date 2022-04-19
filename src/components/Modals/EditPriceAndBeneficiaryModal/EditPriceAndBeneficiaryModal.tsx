@@ -7,7 +7,7 @@ import { NetworkButton } from 'decentraland-dapps/dist/containers'
 import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import Info from 'components/Info'
+import Info from '../../Info'
 import { isValid } from 'lib/address'
 import { Item } from 'modules/item/types'
 import { Props, State } from './EditPriceAndBeneficiaryModal.types'

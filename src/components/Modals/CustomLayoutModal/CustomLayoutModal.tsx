@@ -3,7 +3,7 @@ import { Button, ModalNavigation, Field } from 'decentraland-ui'
 import Modal from 'decentraland-dapps/dist/containers/Modal'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
-import ProjectLayoutPicker from 'components/ProjectLayoutPicker'
+import ProjectLayoutPicker from '../../ProjectLayoutPicker'
 import { fromLayout } from 'modules/template/utils'
 import { ProjectLayout } from 'modules/project/types'
 import { Props, State } from './CustomLayoutModal.types'

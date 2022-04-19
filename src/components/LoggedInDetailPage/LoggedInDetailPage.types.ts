@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavigationTab } from 'components/Navigation/Navigation.types'
+import { NavigationTab } from '../Navigation/Navigation.types'
 
 export type Props = {
   children: React.ReactNode

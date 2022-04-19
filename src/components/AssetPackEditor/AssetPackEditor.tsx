@@ -6,8 +6,8 @@ import { MAX_TITLE_LENGTH, MAX_THUMBNAIL_SIZE, MIN_TITLE_LENGTH } from 'modules/
 import { RawAssetPack, MixedAssetPack } from 'modules/assetPack/types'
 import { isGround } from 'modules/asset/utils'
 import { isRemoteURL } from 'modules/media/utils'
-import AssetThumbnail from 'components/AssetThumbnail'
-import Icon from 'components/Icon'
+import AssetThumbnail from '../AssetThumbnail'
+import Icon from '../Icon'
 
 import { Props, State } from './AssetPackEditor.types'
 import './AssetPackEditor.css'

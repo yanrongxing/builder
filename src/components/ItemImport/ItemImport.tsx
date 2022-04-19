@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
 import { Loader, Row } from 'decentraland-ui'
-import FileImport from 'components/FileImport'
-import { InfoIcon } from 'components/InfoIcon'
+import FileImport from '../FileImport'
+import { InfoIcon } from '../InfoIcon'
 import { Props } from './ItemImport.types'
 import styles from './ItemImport.module.css'
 

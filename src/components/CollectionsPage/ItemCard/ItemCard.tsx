@@ -6,7 +6,7 @@ import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 
 import { OptionsDropdown } from '../../OptionsDropdown'
 import { locations } from 'routing/locations'
-import ItemImage from 'components/ItemImage'
+import ItemImage from '../../ItemImage'
 import { Props } from './ItemCard.types'
 import { CollectedProps, ITEM_DASHBOARD_CARD_SOURCE, itemCardSource, collect } from './ItemCard.dnd'
 import './ItemCard.css'

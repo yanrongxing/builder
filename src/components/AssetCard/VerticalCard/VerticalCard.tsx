@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Popup } from 'decentraland-ui'
 
-import Icon from 'components/Icon'
+import Icon from '../../Icon'
 import { GROUND_CATEGORY } from 'modules/asset/types'
 import { Props } from './VerticalCard.types'
 import './VerticalCard.css'

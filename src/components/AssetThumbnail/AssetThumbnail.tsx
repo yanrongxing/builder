@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Popup } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { CategoryName } from 'modules/ui/sidebar/utils'
-import Icon from 'components/Icon'
+import Icon from '../Icon'
 
 import { Props } from './AssetThumbnail.types'
 import './AssetThumbnail.css'
